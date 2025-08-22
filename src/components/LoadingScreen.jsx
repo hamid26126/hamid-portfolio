@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import { useState } from "react"
+import { div } from "three/tsl"
 
 export const LoadingScreen = ({onComplete}) => {
     const  [text,setText] = useState('')
@@ -26,7 +27,7 @@ export const LoadingScreen = ({onComplete}) => {
 
 
 
-    return 
+    return (
     <>
     <div className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center">
         <div className="mb-4 text-4xl font-mono font-bold">
@@ -37,4 +38,4 @@ export const LoadingScreen = ({onComplete}) => {
         </div>
     </div>
     </>
-}
+)}
