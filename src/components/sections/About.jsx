@@ -2,7 +2,7 @@ import ReviewOnScroll from "../ReviewOnScroll";
 
 const About = () => {
   const frontendSkills = ["React", "JavaScript", "TailwindCSS", "Bootstrap", "HTML", "CSS"];
-  const backendSkills = ["NodeJS", "ExpressJS", "MongoDB", "Python"];
+  const backendSkills = ["NodeJS", "ExpressJS", "MongoDB", "Python",'Strapi CMS'];
 
   return (
     <section id="about" className="min-h-screen flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8">

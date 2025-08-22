@@ -5,24 +5,25 @@ const Projects = () => {
     {
       title: 'NoteAura - Note Taking App',
       description: 'A full-stack note-taking web app where users can add, tag, and delete notes with a clean UI and secure backend.',
-      skills: ['React', 'Bootstrap', 'Express', 'MongoDB','Node.js'],
+      skills: ['React', 'Bootstrap', 'ExpressJS', 'MongoDB','Node.js'],
       link: 'https://mynoteaura.vercel.app/',
     },
     {
       title: 'AB Electrical Engineering Website',
       description: 'A professional business website for ABEE featuring responsive layout, service pages, and live SEO optimization.',
-      skills: ['React', 'Bootstrap', 'SEO', 'Hosting'],
+      skills: ['React', 'Bootstrap', 'SEO Optimization', 'Hosting & Deployment'],
       link: 'https://abeepk.com/',
     },
     {
-      title: 'Typing Speed Game',
-      description: 'A browser-based game to test and improve your typing speed with real-time feedback and timer.',
-      skills: ['JavaScript', 'HTML', 'CSS', 'Snap!'],
+      title: 'Game Store – E-Commerce Web App',
+      description: 'A modern eCommerce platform where users can browse and purchase video games with integrated payment gateway support.',
+      skills: ['React', 'JavaScript', 'TailwindCSS', 'HTML','Strapi CMS','Stripe'],
+      link:'https://www.linkedin.com/posts/muhammad-hamid-31060a327_webdevelopment-reactjs-strapicms-activity-7364406470467047425-6NDn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFJ-fTwB0108YjbWY3U_n3u1CL_NQ1hDJNY'
     },
     {
       title: 'Text Analysis App',
       description: 'A utility app that analyzes text input — showing word count, character count, and reading time.',
-      skills: ['React', 'JavaScript', 'Bootstrap'],
+      skills: ['React', 'JavaScript', 'Bootstrap','HTML'],
     },
   ];
 
