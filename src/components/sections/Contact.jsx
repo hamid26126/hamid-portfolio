@@ -34,7 +34,7 @@ const Contact = () => {
       Get in Touch
     </h2>
 
-    <form className="w-full md:w-150 space-y-6" onSubmit={handleSubmit}>
+    <form autoComplete='off' className="w-full md:w-150 space-y-6" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name" className="sr-only">Name</label>
         <input
