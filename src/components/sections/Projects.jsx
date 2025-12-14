@@ -1,34 +1,30 @@
 import ReviewOnScroll from '../ReviewOnScroll';
 import { IoIosPlay } from "react-icons/io";
-import NoteAuraVideo from '../../assets/NoteAura.mp4'
-import GameStoreVideo from '../../assets/GameStore - Trim.mp4'
-import ABEEVideo from '../../assets/Recording_of_ABEE.mp4'
-import UploadYTVideo from '../../assets/UploadYTVideos.mp4'
 
 const Projects = () => {
   const projects = [
     {
-      videoPreview: NoteAuraVideo,
+      youtubeId: "G5xEVAnV1uM",
       title: 'NoteAura - Note Taking App',
       description: 'A full-stack note-taking web app where users can add, tag, and delete notes with a clean UI and secure backend.',
       skills: ['React', 'Bootstrap', 'ExpressJS', 'MongoDB','Node.js'],
       link: 'https://mynoteaura.vercel.app/',
     },
     {
-      videoPreview: ABEEVideo,
+      youtubeId: "AcewUaWMqdA",
       title: 'AB Electrical Engineering Website',
       description: 'A professional business website for ABEE featuring responsive layout, service pages, and live SEO optimization.',
       skills: ['React', 'Bootstrap', 'SEO Optimization', 'Hosting & Deployment'],
       link: 'https://abeepk.com/',
     },
     {
-      videoPreview: GameStoreVideo,
+      youtubeId: "9zCpCPAa014",
       title: 'Game Store – E-Commerce Web App',
       description: 'A modern eCommerce platform where users can browse and purchase video games with integrated payment gateway support.',
       skills: ['React', 'JavaScript', 'TailwindCSS', 'HTML','Strapi CMS','Stripe'],
     },
     {
-      videoPreview: UploadYTVideo,
+      youtubeId: "S-edrDVdbFc",
       title: 'YouTube Video Uploader Web Application',
       description: 'A lightweight full-stack web application that allows users to upload videos directly to their YouTube channel using Google OAuth, providing a simple and beginner-friendly upload experience.',
       skills: ['React.js', 'Node.js & Express.js', 'Google OAuth 2.0','YouTube Data API','REST API Integration'],
@@ -48,15 +44,16 @@ const Projects = () => {
                 key={index}
                 className="rounded-xl p-6 border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-lg transition"
               >
-                {project.videoPreview ? (
-      <div className="mb-5 rounded-lg overflow-hidden bg-black/40">
-  <video
-    src={project.videoPreview}
-    controls
-    preload="metadata"
-    className="w-full aspect-video object-contain"
+                {project.youtubeId ? (
+      <div className="mb-5 rounded-lg overflow-hidden aspect-video bg-black/40">
+  <iframe
+    src={`https://www.youtube.com/embed/${project.youtubeId}`}
+    className="w-full h-full"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
   />
 </div>
+
 
     ) : (
       <IoIosPlay className="text-5xl text-gray-500 cursor-pointer" />
