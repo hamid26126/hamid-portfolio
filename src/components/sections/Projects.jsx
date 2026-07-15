@@ -3,33 +3,103 @@ import { IoIosPlay } from "react-icons/io";
 
 const Projects = () => {
   const projects = [
-    {
-      youtubeId: "G5xEVAnV1uM",
-      title: 'NoteAura - Note Taking App',
-      description: 'A full-stack note-taking web app where users can add, tag, and delete notes with a clean UI and secure backend.',
-      skills: ['React', 'Bootstrap', 'ExpressJS', 'MongoDB','Node.js'],
-      link: 'https://mynoteaura.vercel.app/',
-    },
-    {
-      youtubeId: "AcewUaWMqdA",
-      title: 'AB Electrical Engineering Website',
-      description: 'A professional business website for ABEE featuring responsive layout, service pages, and live SEO optimization.',
-      skills: ['React', 'Bootstrap', 'SEO Optimization', 'Hosting & Deployment'],
-      link: 'https://abeepk.com/',
-    },
-    {
-      youtubeId: "9zCpCPAa014",
-      title: 'Game Store – E-Commerce Web App',
-      description: 'A modern eCommerce platform where users can browse and purchase video games with integrated payment gateway support.',
-      skills: ['React', 'JavaScript', 'TailwindCSS', 'HTML','Strapi CMS','Stripe'],
-    },
-    {
-      youtubeId: "S-edrDVdbFc",
-      title: 'YouTube Video Uploader Web Application',
-      description: 'A lightweight full-stack web application that allows users to upload videos directly to their YouTube channel using Google OAuth, providing a simple and beginner-friendly upload experience.',
-      skills: ['React.js', 'Node.js & Express.js', 'Google OAuth 2.0','YouTube Data API','REST API Integration'],
-    },
-  ];
+  {
+    youtubeId: "G5xEVAnV1uM",
+    title: "NoteAura - Note Taking App",
+    description:
+      "A full-stack note-taking application that allows users to securely create, organize, tag, and manage notes with a clean responsive interface and RESTful backend.",
+    skills: [
+      "React",
+      "Bootstrap",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+    ],
+    link: "https://mynoteaura.vercel.app/",
+  },
+  {
+    youtubeId: "AcewUaWMqdA",
+    title: "AB Electrical Engineering Website",
+    description:
+      "A modern corporate website built for an engineering company featuring responsive design, SEO optimization, service showcases, and fast deployment for improved online presence.",
+    skills: [
+      "React",
+      "Bootstrap",
+      "SEO Optimization",
+      "Hosting",
+      "Deployment",
+    ],
+  },
+  {
+    youtubeId: "9zCpCPAa014",
+    title: "Game Store – E-Commerce Platform",
+    description:
+      "A full-featured eCommerce platform for purchasing digital games with product management, secure Stripe payments, CMS-powered content, and a responsive shopping experience.",
+    skills: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Strapi CMS",
+      "Stripe",
+      "REST APIs",
+    ],
+  },
+  {
+    youtubeId: "S-edrDVdbFc",
+    title: "YouTube Video Uploader",
+    description:
+      "A full-stack web application that enables creators to upload videos directly to YouTube using Google OAuth authentication and the YouTube Data API.",
+    skills: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Google OAuth",
+      "YouTube Data API",
+      "REST API",
+    ],
+  },
+
+  {
+  youtubeId: "2SeozJ1w7D8",
+  title: "CashMate - AI Personal Finance Manager",
+  description:
+    "A full-stack MERN application that helps users manage personal finances with AI-powered financial assistance, expense tracking, and automated reminders using scheduled notification services.",
+  skills: [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Groq API",
+    "Cron Jobs"
+  ],
+},
+{
+  youtubeId: "bCalh3xGqWM",
+  title: "PSL Command Center",
+  description:
+    "A Windows desktop application built to manage Pakistan Super League operations, including teams, players, matches, venues, seasons, auctions, and reporting through an intuitive administrative interface.",
+  skills: [
+    "C#",
+    "WinForms",
+    "MySQL",
+    "RDLC Reports"
+  ],
+},
+{
+  youtubeId: "Z-OWBwe7ee8",
+  title: "Employee Hierarchy Management System",
+  description:
+    "A Data Structures & Algorithms project that models an organization's reporting hierarchy using tree data structures and DFS traversal. Employee data is loaded from text files, enabling efficient hierarchy construction and traversal without a database.",
+  skills: [
+    "C++",
+    "Data Structures",
+    "Trees",
+    "DFS",
+    "File Handling",
+    "Algorithms"
+  ],
+},
+];
 
   return (
     <section id="projects" className="min-h-screen flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
