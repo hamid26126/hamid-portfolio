@@ -103,7 +103,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="min-h-screen flex items-center justify-center py-20 px-4 sm:px-6 lg:px-8">
-      <ReviewOnScroll>
+      {/* <ReviewOnScroll> */}
         <div className="max-w-5xl mx-auto w-full">
           <h2 className="text-3xl font-bold mb-10 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Featured Projects
@@ -154,7 +154,7 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </ReviewOnScroll>
+      {/* </ReviewOnScroll> */}
     </section>
   );
 };
